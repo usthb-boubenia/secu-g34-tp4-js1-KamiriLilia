@@ -41,7 +41,7 @@ function f2() {
 // -----------------------------------------------------
 // Slide 45 : Fonction sans paramètre
 function f3() {
-  // Slide 38 : Tableau d’objets
+  // Slide 38/40 : Tableau d’objets  ( les tableau 38 , et tableau objet 40)
   const etudiants = [
     { nom: "Nom1", prenom: "Prenom1", age: 21 },
     { nom: "Nom2", prenom: "Prenom2", age: 22 },

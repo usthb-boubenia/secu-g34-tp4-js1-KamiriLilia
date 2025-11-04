@@ -10,9 +10,9 @@ function f1() {
     // Slide 45 : Fonction sans paramètre
   // Slide 37 : Déclaration de variables simples (type String)
   // Slide 41 : Concatenation simple avec console.log()
-  let etudiant1 = "Etudiant 1";
-  let etudiant2 = "Etudiant 2";
-  let etudiant3 = "Etudiant 3";
+  let etudiant1 = "Etudiant1";
+  let etudiant2 = "Etudiant2";
+  let etudiant3 = "Etudiant3";
 
   console.log(etudiant1); // Slide 33 : affichage console
   console.log(etudiant2);
@@ -26,7 +26,7 @@ function f2() {
   // Slide 39 : Définition d’un objet JavaScript avec trois propriétés
   const etudiant = {
     nom: "John",
-    prenom: "Doe",
+    prenom: "DOE",
     age: 30
   };
 
@@ -42,9 +42,9 @@ function f2() {
 function f3() {
   // Slide 38/40 : Tableau d’objets  ( les tableau 38 , et tableau objet 40)
   const etudiants = [
-    { nom: "Nom1", prenom: "Prenom1", age: 21 },
-    { nom: "Nom2", prenom: "Prenom2", age: 22 },
-    { nom: "Nom3", prenom: "Prenom3", age: 23 }
+    { nom: "nom1", prenom: "prenom1", age: 21 },
+    { nom: "nom2", prenom: "prenom2", age: 22 },
+    { nom: "nom3", prenom: "prenom3", age: 23 }
   ];
       // Slide 44 : Boucle forEach pour parcourir un tableau
   etudiants.forEach(e => {

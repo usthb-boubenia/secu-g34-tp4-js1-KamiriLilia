@@ -18,7 +18,6 @@ function f1() {
   console.log(etudiant2);
   console.log(etudiant3);
 }
-
 // -----------------------------------------------------
 // Fonction F2
 // -----------------------------------------------------
@@ -47,8 +46,7 @@ function f3() {
     { nom: "Nom2", prenom: "Prenom2", age: 22 },
     { nom: "Nom3", prenom: "Prenom3", age: 23 }
   ];
-
-  // Slide 44 : Boucle forEach pour parcourir un tableau
+      // Slide 44 : Boucle forEach pour parcourir un tableau
   etudiants.forEach(e => {
     // Slide 41 : Opérateur + pour concaténer des chaînes
     console.log(e.nom + "-" + e.prenom + "-" + e.age);
